@@ -1,0 +1,4 @@
+@echo off
+title Legends of Aeron
+powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0Actualizador.ps1"
+if errorlevel 1 pause
